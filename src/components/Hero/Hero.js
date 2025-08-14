@@ -23,7 +23,7 @@ const Hero = () => {
             Jadikan Liburan spesialmu makin berkesan! <br />
             <span className=" text-green-yellow-300 text-xs sm:text-xl tracking-[1px]">Great Tour A Great Memories</span>{' '}
           </p>
-          <Button href="/" className=" mt-3 sm:mt-[-9px]">
+          <Button href="/" className=" mt-4 sm:mt-[-9px]">
             Paket Wisata
           </Button>
           <Search className="mt-8 md:mt-6">FIND NOW</Search>
