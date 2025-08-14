@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Proyek Slicing UI - Arena Wisata (Next.js & Tailwind CSS)
 
-## Getting Started
+Proyek ini adalah latihan *slicing* UI dari desain website [arenawisata.co.id](https://arenawisata.co.id) yang dibangun menggunakan Next.js dan Tailwind CSS. Tujuannya adalah untuk mempraktikkan dan memperdalam pemahaman tentang konsep pengembangan frontend modern.
 
-First, run the development server:
+## 📸 Tampilan Proyek
+
+*Anda bisa memasang screenshot proyek Anda di sini untuk membuatnya lebih menarik.*
+
+## ✨ Fitur Utama
+
+  - **Desain Responsif**: Tampilan yang menyesuaikan diri dari mobile, tablet, hingga desktop.
+  - **Komponen Reusable**: Dibangun dengan komponen-komponen yang bisa dipakai ulang seperti Button, Navbar, dan Card.
+  - **Mobile-First Approach**: Didesain dengan mengutamakan tampilan mobile terlebih dahulu.
+
+## 🚀 Teknologi yang Digunakan
+
+  * [**Next.js**](https://nextjs.org/) - Framework React untuk produksi.
+  * [**React**](https://react.dev/) - Library JavaScript untuk membangun antarmuka pengguna.
+  * [**Tailwind CSS**](https://tailwindcss.com/) - Kerangka kerja CSS utility-first.
+  * [**`next/font`**](https://www.google.com/search?q=%5Bhttps://nextjs.org/docs/app/building-your-application/optimizing/fonts%5D\(https://nextjs.org/docs/app/building-your-application/optimizing/fonts\)) - Untuk optimisasi font (Poppins).
+  * [**Git & GitHub**](https://github.com/) - Untuk kontrol versi.
+
+## 🛠️ Panduan Instalasi & Menjalankan Proyek
+
+Berikut adalah langkah-langkah untuk menjalankan proyek ini di komputer lokal Anda.
+
+**1. Clone Repositori**
+
+```bash
+git clone https://github.com/ilsetiawan1/02-sclicing-arenawisata-nextjs.git
+```
+
+**2. Masuk ke Direktori Proyek**
+
+```bash
+cd 02-sclicing-arenawisata-nextjs
+```
+
+**3. Install Dependensi**
+Gunakan npm untuk menginstal semua *package* yang dibutuhkan.
+
+```bash
+npm install
+```
+
+**4. Jalankan Server Development**
+Perintah ini akan menjalankan aplikasi di mode development.
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**5. Buka di Browser**
+Buka [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) di browser Anda untuk melihat hasilnya.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📂 Struktur Folder
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+  * `src/app/`: Berisi semua halaman dan rute utama aplikasi.
+  * `src/components/`: Berisi semua komponen UI yang *reusable*.
+  * `public/`: Berisi semua aset statis seperti gambar dan ikon.
+  * `tailwind.config.js`: File konfigurasi untuk Tailwind CSS.
 
-## Learn More
+-----
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ini jauh lebih informatif dan memberikan gambaran yang jelas tentang proyek Anda kepada siapa pun yang melihatnya.
