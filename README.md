@@ -4,7 +4,7 @@ Proyek ini adalah latihan *slicing* UI dari desain website [arenawisata.co.id](h
 
 ## 📸 Tampilan Proyek
 
-![Halaman Home](image-1.png)
+![Halaman Home](public/images/docs/hero-section-mobile.png)
 
 ## ✨ Fitur Utama
 
