@@ -59,7 +59,3 @@ Buka [http://localhost:3000](https://www.google.com/search?q=http://localhost:30
   * `src/components/`: Berisi semua komponen UI yang *reusable*.
   * `public/`: Berisi semua aset statis seperti gambar dan ikon.
   * `tailwind.config.js`: File konfigurasi untuk Tailwind CSS.
-
------
-
-Ini jauh lebih informatif dan memberikan gambaran yang jelas tentang proyek Anda kepada siapa pun yang melihatnya.
